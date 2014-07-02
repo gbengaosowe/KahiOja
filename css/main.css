@@ -3,7 +3,7 @@ header {
 }
 
 p{
-	color: gold;
+	color: blue;
 	font-weight: bold;
 }
 
@@ -22,19 +22,33 @@ p {
 
 #checklist {
 	 height: 25px;
-	 width: 100%;
+	 width: 500px;
 	 float: left;
-	 color: gold;
-	 background: blue transparent;
-	 box-shadow:
+	 color: blue;
+	 background: rgba(0,0,250,0.2);
+	 font-weight: bold;
+	 position: absolute;
+	 left: 312px;
+}
+#add {
+	background-color: white;
+	color: blue; 
+	font-weight: bold;
+}
+
+#delete {
+	background-color: white;
+	color: brown;
+	font-weight: bold;
 }
 
 ul {
- list-style-type: none;
+	list-style-type: none;
 }
 
-#purchased {
-	color: blue;
+#basket {
+	color: green;
+	font-size: 1.3em;
 	border: 0;
 	height: 100px;
 	width: 300px;
@@ -43,11 +57,24 @@ ul {
 		inset 0 0 8px  rgba(0,0,0,0.1),
             0 0 16px rgba(0,0,0,0.1); 
 	padding: 7px;
-    background: white;
+    background: rgba(255,255,255,0.2);
 	background: solid;
 	position: absolute;
 	left: 550px;
 	top: 320px;
+}
+
+#purchased {
+	color: pink;
+	font-size: 1.2em;
+	border: 3px, blue solid;
+	height: 130px;
+	width: 190px;
+	float: left; 
+	background-color: rgba(188,198,204,0.1);
+	position: absolute;
+	right: 600px;
+	top: 190px;
 }
 
  footer {
